@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T07:06:21.255Z",
+  "generatedAt": "2026-11-23T07:09:19.203Z",
   "repo": {
     "connectorId": 739,
     "repoSlug": "shag24/shag",
@@ -13,11 +13,63 @@
   },
   "tree": [
     {
+      "assetId": 50679,
+      "displayId": "FD-26",
+      "name": "2026_16",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 50947,
+          "displayId": "FD-30",
+          "name": "LAIS-1543",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 50948,
+              "displayId": "TC-162",
+              "name": "LAIS_1543__ValidateAgentTriggerCreationAndDeletion",
+              "kind": "test-case",
+              "repoPath": "2026_16/LAIS-1543/TC-162-LAIS_1543__ValidateAgentTriggerCreationAndDeletion.spec.ts"
+            },
+            {
+              "assetId": 51336,
+              "displayId": "TC-169",
+              "name": "LAIS_1543__ValidateMultipleEventSubscriptionCreation",
+              "kind": "test-case",
+              "repoPath": "2026_16/LAIS-1543/TC-169-LAIS_1543__ValidateMultipleEventSubscriptionCreation.spec.ts"
+            },
+            {
+              "assetId": 51018,
+              "displayId": "TC-165",
+              "name": "LAIS_1543_ValidateSubscriptionCardActionMenu",
+              "kind": "test-case",
+              "repoPath": "2026_16/LAIS-1543/TC-165-LAIS_1543_ValidateSubscriptionCardActionMenu.spec.ts"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetId": 52000,
       "displayId": "FD-35",
       "name": "2026_19",
       "kind": "folder",
       "children": [
+        {
+          "assetId": 57637,
+          "displayId": "FD-59",
+          "name": "LAIS-1708",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 57648,
+              "displayId": "TC-265",
+              "name": "LAIS_1708_Verify the “Test Cases Created” pop-up displays the correct number of folders in which test cases were created.",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1708/TC-265-LAIS_1708_Verify-the-“Test-Cases-Created”-pop-up-displays-the-correct-number-of-folders-in-which-test-cases-were-created.spec.ts"
+            }
+          ]
+        },
         {
           "assetId": 58184,
           "displayId": "FD-64",
@@ -25,11 +77,82 @@
           "kind": "folder",
           "children": [
             {
+              "assetId": 58185,
+              "displayId": "TC-271",
+              "name": "LAIS_1783_Export a test case containing secret code.",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1783/TC-271-LAIS_1783_Export-a-test-case-containing-secret-code.spec.ts"
+            },
+            {
               "assetId": 58271,
               "displayId": "TC-273",
               "name": "LAIS_1783_Imported a test case containing a secret, validated the pop-up, and clicked the “Skip” button.",
               "kind": "test-case",
               "repoPath": "2026_19/LAIS-1783/TC-273-LAIS_1783_Imported-a-test-case-containing-a-secret,-validated-the-pop-up,-and-clicked-the-“Skip”-button.spec.ts"
+            },
+            {
+              "assetId": 58357,
+              "displayId": "TC-278",
+              "name": "LAIS_1783_Validate import test case with multiple secret code",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1783/TC-278-LAIS_1783_Validate-import-test-case-with-multiple-secret-code.spec.ts"
+            },
+            {
+              "assetId": 58282,
+              "displayId": "TC-274",
+              "name": "LAIS_1783_Verify a test case with one secret and referenced assets can be imported successfully",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1783/TC-274-LAIS_1783_Verify-a-test-case-with-one-secret-and-referenced-assets-can-be-imported-successfully.spec.ts"
+            },
+            {
+              "assetId": 58301,
+              "displayId": "TC-275",
+              "name": "LAIS_1783_Verify re-importing a test case does not create a duplicate secret",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1783/TC-275-LAIS_1783_Verify-re-importing-a-test-case-does-not-create-a-duplicate-secret.spec.ts"
+            },
+            {
+              "assetId": 58331,
+              "displayId": "TC-276",
+              "name": "LAIS_1783_Verify the number of assets used as secrets in Team Settings after deleting a test case containing secret code",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1783/TC-276-LAIS_1783_Verify-the-number-of-assets-used-as-secrets-in-Team-Settings-after-deleting-a-test-case-containing-secret-code.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 57048,
+          "displayId": "FD-57",
+          "name": "LAIS-1805",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 58931,
+              "displayId": "TC-279",
+              "name": "LAIS_1805_Verify existing Run Lists use the applicable default browser",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1805/TC-279-LAIS_1805_Verify-existing-Run-Lists-use-the-applicable-default-browser.spec.ts"
+            },
+            {
+              "assetId": 57072,
+              "displayId": "TC-252",
+              "name": "LAIS_1805_Verify Run List displays the saved browser type",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1805/TC-252-LAIS_1805_Verify-Run-List-displays-the-saved-browser-type.spec.ts"
+            },
+            {
+              "assetId": 57049,
+              "displayId": "TC-247",
+              "name": "LAIS_1805_Verify the Browser type dropdown shows \"Google Chromium\" and \"Microsoft Edge\"",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1805/TC-247-LAIS_1805_Verify-the-Browser-type-dropdown-shows-Google-Chromium-and-Microsoft-Edge.spec.ts"
+            },
+            {
+              "assetId": 57148,
+              "displayId": "TC-254",
+              "name": "LAIS_1805_Verify the selected browser is used when the Run List executes",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1805/TC-254-LAIS_1805_Verify-the-selected-browser-is-used-when-the-Run-List-executes.spec.ts"
             }
           ]
         }
@@ -38,12 +161,116 @@
   ],
   "files": [
     {
+      "assetId": 50948,
+      "assetKind": "test-case",
+      "displayId": "TC-162",
+      "name": "LAIS_1543__ValidateAgentTriggerCreationAndDeletion",
+      "repoPath": "2026_16/LAIS-1543/TC-162-LAIS_1543__ValidateAgentTriggerCreationAndDeletion.spec.ts",
+      "parentAssetId": 50947
+    },
+    {
+      "assetId": 51018,
+      "assetKind": "test-case",
+      "displayId": "TC-165",
+      "name": "LAIS_1543_ValidateSubscriptionCardActionMenu",
+      "repoPath": "2026_16/LAIS-1543/TC-165-LAIS_1543_ValidateSubscriptionCardActionMenu.spec.ts",
+      "parentAssetId": 50947
+    },
+    {
+      "assetId": 51336,
+      "assetKind": "test-case",
+      "displayId": "TC-169",
+      "name": "LAIS_1543__ValidateMultipleEventSubscriptionCreation",
+      "repoPath": "2026_16/LAIS-1543/TC-169-LAIS_1543__ValidateMultipleEventSubscriptionCreation.spec.ts",
+      "parentAssetId": 50947
+    },
+    {
+      "assetId": 57648,
+      "assetKind": "test-case",
+      "displayId": "TC-265",
+      "name": "LAIS_1708_Verify the “Test Cases Created” pop-up displays the correct number of folders in which test cases were created.",
+      "repoPath": "2026_19/LAIS-1708/TC-265-LAIS_1708_Verify-the-“Test-Cases-Created”-pop-up-displays-the-correct-number-of-folders-in-which-test-cases-were-created.spec.ts",
+      "parentAssetId": 57637
+    },
+    {
+      "assetId": 58185,
+      "assetKind": "test-case",
+      "displayId": "TC-271",
+      "name": "LAIS_1783_Export a test case containing secret code.",
+      "repoPath": "2026_19/LAIS-1783/TC-271-LAIS_1783_Export-a-test-case-containing-secret-code.spec.ts",
+      "parentAssetId": 58184
+    },
+    {
       "assetId": 58271,
       "assetKind": "test-case",
       "displayId": "TC-273",
       "name": "LAIS_1783_Imported a test case containing a secret, validated the pop-up, and clicked the “Skip” button.",
       "repoPath": "2026_19/LAIS-1783/TC-273-LAIS_1783_Imported-a-test-case-containing-a-secret,-validated-the-pop-up,-and-clicked-the-“Skip”-button.spec.ts",
       "parentAssetId": 58184
+    },
+    {
+      "assetId": 58282,
+      "assetKind": "test-case",
+      "displayId": "TC-274",
+      "name": "LAIS_1783_Verify a test case with one secret and referenced assets can be imported successfully",
+      "repoPath": "2026_19/LAIS-1783/TC-274-LAIS_1783_Verify-a-test-case-with-one-secret-and-referenced-assets-can-be-imported-successfully.spec.ts",
+      "parentAssetId": 58184
+    },
+    {
+      "assetId": 58301,
+      "assetKind": "test-case",
+      "displayId": "TC-275",
+      "name": "LAIS_1783_Verify re-importing a test case does not create a duplicate secret",
+      "repoPath": "2026_19/LAIS-1783/TC-275-LAIS_1783_Verify-re-importing-a-test-case-does-not-create-a-duplicate-secret.spec.ts",
+      "parentAssetId": 58184
+    },
+    {
+      "assetId": 58331,
+      "assetKind": "test-case",
+      "displayId": "TC-276",
+      "name": "LAIS_1783_Verify the number of assets used as secrets in Team Settings after deleting a test case containing secret code",
+      "repoPath": "2026_19/LAIS-1783/TC-276-LAIS_1783_Verify-the-number-of-assets-used-as-secrets-in-Team-Settings-after-deleting-a-test-case-containing-secret-code.spec.ts",
+      "parentAssetId": 58184
+    },
+    {
+      "assetId": 58357,
+      "assetKind": "test-case",
+      "displayId": "TC-278",
+      "name": "LAIS_1783_Validate import test case with multiple secret code",
+      "repoPath": "2026_19/LAIS-1783/TC-278-LAIS_1783_Validate-import-test-case-with-multiple-secret-code.spec.ts",
+      "parentAssetId": 58184
+    },
+    {
+      "assetId": 57049,
+      "assetKind": "test-case",
+      "displayId": "TC-247",
+      "name": "LAIS_1805_Verify the Browser type dropdown shows \"Google Chromium\" and \"Microsoft Edge\"",
+      "repoPath": "2026_19/LAIS-1805/TC-247-LAIS_1805_Verify-the-Browser-type-dropdown-shows-Google-Chromium-and-Microsoft-Edge.spec.ts",
+      "parentAssetId": 57048
+    },
+    {
+      "assetId": 57072,
+      "assetKind": "test-case",
+      "displayId": "TC-252",
+      "name": "LAIS_1805_Verify Run List displays the saved browser type",
+      "repoPath": "2026_19/LAIS-1805/TC-252-LAIS_1805_Verify-Run-List-displays-the-saved-browser-type.spec.ts",
+      "parentAssetId": 57048
+    },
+    {
+      "assetId": 57148,
+      "assetKind": "test-case",
+      "displayId": "TC-254",
+      "name": "LAIS_1805_Verify the selected browser is used when the Run List executes",
+      "repoPath": "2026_19/LAIS-1805/TC-254-LAIS_1805_Verify-the-selected-browser-is-used-when-the-Run-List-executes.spec.ts",
+      "parentAssetId": 57048
+    },
+    {
+      "assetId": 58931,
+      "assetKind": "test-case",
+      "displayId": "TC-279",
+      "name": "LAIS_1805_Verify existing Run Lists use the applicable default browser",
+      "repoPath": "2026_19/LAIS-1805/TC-279-LAIS_1805_Verify-existing-Run-Lists-use-the-applicable-default-browser.spec.ts",
+      "parentAssetId": 57048
     }
   ]
 }
