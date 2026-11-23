@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-23T07:06:21.255Z",
+  "repo": {
+    "connectorId": 739,
+    "repoSlug": "shag24/shag",
+    "baseBranch": "shag1"
+  },
+  "team": {
+    "assetId": 6501,
+    "displayId": "TM-1",
+    "name": "1 - Play__Automation"
+  },
+  "tree": [
+    {
+      "assetId": 52000,
+      "displayId": "FD-35",
+      "name": "2026_19",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 58184,
+          "displayId": "FD-64",
+          "name": "LAIS-1783",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 58271,
+              "displayId": "TC-273",
+              "name": "LAIS_1783_Imported a test case containing a secret, validated the pop-up, and clicked the “Skip” button.",
+              "kind": "test-case",
+              "repoPath": "2026_19/LAIS-1783/TC-273-LAIS_1783_Imported-a-test-case-containing-a-secret,-validated-the-pop-up,-and-clicked-the-“Skip”-button.spec.ts"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "assetId": 58271,
+      "assetKind": "test-case",
+      "displayId": "TC-273",
+      "name": "LAIS_1783_Imported a test case containing a secret, validated the pop-up, and clicked the “Skip” button.",
+      "repoPath": "2026_19/LAIS-1783/TC-273-LAIS_1783_Imported-a-test-case-containing-a-secret,-validated-the-pop-up,-and-clicked-the-“Skip”-button.spec.ts",
+      "parentAssetId": 58184
+    }
+  ]
+}
